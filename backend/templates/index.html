@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNN Prediction</title>
+</head>
+<body>
+    <h1>CNN Prediction</h1>
+    <form action="/predict"  method="post" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="patient name" accept="charset">
+        <input type="number" name="age" placeholder="patient age" max="150" min="0">
+        <input type="file" name="file1" accept=".jpg, .jpeg, .png">
+        <input type="file" name="file2" accept=".jpg, .jpeg, .png">
+        <input type="submit" value="Upload">
+    </form>
+    
+</body>
+</html>
