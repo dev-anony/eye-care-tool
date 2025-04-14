@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoThin';
+  src: url('./fonts/Roboto-Thin.ttf');
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
