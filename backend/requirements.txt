@@ -1,4 +1,0 @@
-tensorflow==2.16.1
-opencv-python==4.9.0.80
-pillow==10.3.0
-flask-cors==4.0.1
