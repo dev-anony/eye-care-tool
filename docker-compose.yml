@@ -1,0 +1,22 @@
+version: '3.9'
+services:
+  react_frontend:
+    build: 
+      context: ./frontend 
+    #volumes:
+      #- ./frontend:/frontend  #since the frontend is already build
+    ports:
+      - 3000:3000
+    image: app:react
+    command: serve -s build
+
+  flask_backend:
+    build:
+      context: ./backend
+    volumes:
+      - ./backend:/backend
+      - ./models:/models
+    ports:
+      - 6899:6899
+    image: server:flask
+    command: python app.py
