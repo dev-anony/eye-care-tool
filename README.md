@@ -22,4 +22,10 @@ A smart healthcare web application that uses Deep Learning to detect various eye
 | Backend    | Python Flask (`app.py`)           |
 | AI Models  | TensorFlow/Keras or PyTorch (CNNs)|
 | Training   | Jupyter Notebooks (`.ipynb`)      |
-| Deployment | Docker (separate for frontend/backend) |
+| Deployment | Docker (separate for frontend/backend) | 
+
+---
+
+## 📁 Project Structure
+
+eye-disease-detector/ │ ├── frontend/ # Frontend files (JS, HTML, CSS) │ └── app.js │ ├── backend/ # Backend Flask API │ ├── app.py │ └── model/ # Contains trained DL models │ ├── notebooks/ # Model training & image processing │ ├── training.ipynb │ └── image_processing.ipynb │ ├── docs/ # Technical documentation │ └── architecture.md │ ├── research/ # Unpublished research paper │ └── paper.pdf │ ├── Dockerfile (x2) # Separate Dockerfiles for frontend & backend ├── docker-compose.yml # (Optional) To run both containers together ├── requirements.txt └── README.md
