@@ -7,6 +7,7 @@ import tensorflow as tf # type: ignore
 #install below packages
 from flask_cors import CORS
 import cv2 
+import pandas as pd
 from flask import Flask, render_template, request, jsonify # type: ignore
 import numpy as np
 from PIL import Image
@@ -17,8 +18,8 @@ CORS(app)
 results_queue = queue.Queue()
 
 model1 = tf.keras.models.load_model(r"./models/acr3origaa2rmsprop09382/multidata GL model.h5")
-model2 = tf.keras.models.load_model(r"./models/mildnorm/best_model.h5")
-#model3 = tf.keras.models.load_model(r"./models/kcn/kc_model.h5")
+model2 = tf.keras.models.load_model(r"./models/mildnorm/mildnorm.h5")
+model3 = tf.keras.models.load_model(r"./models/kcn/kc_model.h5")
 
 
 UPLOAD_FOLDER = 'uploads'
@@ -35,7 +36,7 @@ def home():
 def pre():
     if request.method == 'POST':
         return render_template('index.html')
-'''
+
 @app.route('/predictkcn', methods=['POST'])
 def predictkc():
     if request.method == 'POST':
@@ -51,7 +52,7 @@ def predictkc():
             })
     #return render_template('index.html')
     return jsonify({'error': 'Invalid request'}), 400
-'''
+
 
 @app.route('/predictgldr', methods=['POST'])
 def predict():
