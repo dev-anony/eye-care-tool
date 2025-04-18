@@ -11,3 +11,15 @@ A smart healthcare web application that uses Deep Learning to detect various eye
 - 🌐 Web interface for image upload and result visualization
 - 📊 Separate modules for model training and image preprocessing
 - 📄 Comes with documentation and an unpublished research paper
+- 
+---
+
+## 🧠 Tech Stack
+
+| Layer      | Tech Used                         |
+|------------|-----------------------------------|
+| Frontend   | JavaScript (`app.js` and others)  |
+| Backend    | Python Flask (`app.py`)           |
+| AI Models  | TensorFlow/Keras or PyTorch (CNNs)|
+| Training   | Jupyter Notebooks (`.ipynb`)      |
+| Deployment | Docker (separate for frontend/backend) |
