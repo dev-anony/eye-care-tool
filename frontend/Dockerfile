@@ -1,7 +1,7 @@
 FROM node:20.14.0-alpine
-WORKDIR /navv
-ENV PATH="./node_modules/.bin:$PATH"
+WORKDIR /frontend
 COPY . .
+RUN npm install
 RUN npm run build
 RUN npm install -g serve
 EXPOSE 3000
