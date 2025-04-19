@@ -4,13 +4,12 @@ A smart healthcare web application that uses Deep Learning to detect various eye
 
 ---
 
- Features
+ ## Features
 
-- Detects multiple eye diseases using CNN models
-- Multithreaded backend for running multiple models efficiently
-- Web interface for image upload and result visualization
-- Separate modules for model training and image preprocessing
-- Comes with documentation and an unpublished research paper
+- Detects multiple eye diseases using CNN & FCNN models.
+- Multithreaded backend for running multiple models efficiently.
+- Web interface for image upload and result visualization.
+- Separate modules for model training and image preprocessing.
   
 ---
 
