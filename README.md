@@ -14,7 +14,7 @@ A smart healthcare web application that uses Deep Learning to detect various eye
   
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 | Layer      | Tech Used                         |
 |------------|-----------------------------------|
