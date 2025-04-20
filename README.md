@@ -11,7 +11,6 @@ A smart healthcare web application that uses Deep Learning to detect various eye
 - Web interface for image upload and result visualization.
 - Separate modules for model training and image preprocessing.
   
----
 
 ## Tech Stack
 
