@@ -25,4 +25,10 @@ A smart healthcare web application that uses Deep Learning to detect various eye
 
 ---
 
+## Setting up the environment
+
+[Anaconda](https://www.anaconda.com/) is required to create dev environment.
+
+- Create new environment for the project
+
 
