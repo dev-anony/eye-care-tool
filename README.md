@@ -22,7 +22,6 @@ A smart healthcare web application that uses Deep Learning to detect various eye
 | Training   | Jupyter Notebooks (`.ipynb`)      |
 | Deployment | Docker (separate for frontend/backend) | 
 
----
 
 ## Setting up the environment
 
